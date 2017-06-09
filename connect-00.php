@@ -13,11 +13,11 @@ try {
 	echo '连接失败<br />';
 }
 
-$name = 'xiaoming';
-$province = '河北';
-$age = 21;
-$sex = 1;
-$gid = 3;
+$name = '老王';
+$province = '北京';
+$age = 32;
+$sex = 0;
+$gid = 2;
 //函数quote为字符串添加 引号
 $name = $pdo->quote($name);
 $province = $pdo->quote($province);
